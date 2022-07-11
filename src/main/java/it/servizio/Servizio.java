@@ -30,8 +30,8 @@ public class Servizio {
 	@Path("/getpersone")
 	public List<Persona> createPersone() {
 		List<Persona> all = new ArrayList<>();
-		char a = 'a';
-		char b = 'z';
+		char a = (int) 97;
+		char b = (int) 90;
 		for (int i = 0; i < 23; i++) {
 
 			Persona persona = new Persona(Character.toString(a), Character.toString(b), i);
