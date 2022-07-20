@@ -1,8 +1,8 @@
 # Jersey - crud operations
 
 Applicazione per capire il funzionamento delle operazioni crud utilizzando 
-il framework Jersey per gestire i servizi, le annotazioni JAX-RS per 
-creare risorse e le annotazioni JAXB per mappare le nostre classi POJO. 
+il framework Jersey per creare servizi web, le annotazioni JAX-RS per 
+gestire le risorse con i verbi HTTP e le annotazioni JAXB per mappare le nostre classi POJO. 
 Infine testiamo il tutto con postman.
 
 Struttura: 
